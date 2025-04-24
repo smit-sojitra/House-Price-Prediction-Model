@@ -40,8 +40,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Train model
-# model = joblib.load("delhi_price_model.pkl")
-model = joblib.load("delhi_price_model2.pkl")
+model = joblib.load("delhi_price_model.pkl")
+# model = joblib.load("delhi_price_model2.pkl")
 
 # Input widgets
 area = st.number_input("Area (sq ft)", min_value=100, max_value=10000, step=50)
